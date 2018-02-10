@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+html {
+  font-size: 120%;
+}
+
+body {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  background-color: #fff;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #006496;
+  text-decoration: none;
+}
+a:hover, a:active, .clubs li:hover, .clubs li:active {
+  background-color: #fdd;
+}
+
+
+h1, .clubs li {
+  text-transform: uppercase;
+}
+
+
+/* header / footer */
+header, footer {
+  padding: 40px;
+}
+
+@media(max-width: 700px) {
+  header, footer {
+    padding: 20px 20px;
+  }
+  .presentation {
+    padding: 0;
+  }
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media(max-width: 1000px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media(max-width: 850px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+
+/* clubs */
+
+.clubs {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 50rem;
+  line-height: 4.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+@media(max-width: 1000px) {
+  .clubs {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    max-width: 40rem;
+  }
+}
+@media(max-width: 800px) {
+  .clubs {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    max-width: 35rem;
+  }
+}
+@media(max-width: 625px) {
+  .clubs {
+    line-height: inherit;
+  }
+  .clubs li {
+    padding: 20px 0;
+  }
+
+}
+
+/* share tools */
+
+header .share {
+    margin: 20px auto 0 auto;
+}
+footer .share {
+  margin: 0 auto 40px auto;
+}
+.share {
+  text-align: center;
+}
+
+header p {
+  padding: 0 100px 20px 100px;
+}
+@media(max-width: 700px) {
+  header p {
+    padding: 0 0 20px 0;
+  }
+}
